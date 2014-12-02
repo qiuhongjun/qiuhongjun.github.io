@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[Children]]></title>
+  <subtitle><![CDATA[強迫症與拖延症決鬥下的犧牲者]]></subtitle>
+  <link href="/atom.xml" rel="self"/>
+  <link href="http://qiuhongjun.com/"/>
+  <updated>2014-12-02T14:01:31.025Z</updated>
+  <id>http://qiuhongjun.com/</id>
+  
+  <author>
+    <name><![CDATA[children]]></name>
+    <email><![CDATA[children19930928@gmail.com]]></email>
+  </author>
+  
+  <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[軟件工程叁迭代壹總結]]></title>
+    <link href="http://qiuhongjun.com/2014/11/28/20141128/"/>
+    <id>http://qiuhongjun.com/2014/11/28/20141128/</id>
+    <published>2014-11-27T16:00:00.000Z</published>
+    <updated>2014-12-02T12:00:00.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="團隊">團隊</h1>
+<p><strong>俞則明</strong>大神組長，對程式設計苛求完美，對技術敢於嘗試</p>
+<p><strong>張佳瑜</strong>技術極客，總是能安排完成分配的任務</p>
+<p><strong>種璐瑤</strong>代理組長，實際承擔起安排開發，督促進度的職務</p>
+<p><strong>邱泓鈞</strong>搬磚碼農，拖延症啟動慢，強迫症啟動後追求盡善盡美</p>
+<p><strong>張家政</strong>健美校隊，經常代表學校參加健美操的各項比賽</p>
+<h1 id="學習">學習</h1>
+<ul>
+<li>Wechat development</li>
+<li>Coffeescripts</li>
+<li>Python &amp; Django</li>
+<li>Apache Jmeter</li>
+</ul>
+<h1 id="工作">工作</h1>
+<ul>
+<li>修改原先Django代碼以適用新框架</li>
+<li>使用Jmeter測試並發量與輸送量</li>
+<li>通過微信嘗試綁定學號</li>
+</ul>
+<h1 id="進度">進度</h1>
+<h3 id="popush">popush</h3>
+<p>實現線上程式設計面試平臺嗎，進行需求分析，技術學習。</p>
+<h3 id="微信方案一">微信方案一</h3>
+<p>因應需求改動，改成實現高並發搶票項目。組長前提出方案一，通過nginx轉發處理消息給mysql和mongodb數據庫的模式，并分為三個模塊分配給組員。組長主要精力在於準備期中考試，組員打先鋒。</p>
+<h3 id="微信方案二">微信方案二</h3>
+<p>組長考完試後推翻了方案一，在時間有限的情況下提出了方案二，這時因為組員跟不上組長步伐，主要代碼由組長獨自實現。組員只好自己給自己找任務如測試並發或綁定學號等……</p>
+<h1 id="心得">心得</h1>
+<p>一開始覺得抱上大腿好開心。和大牛一起開發一定能事半功倍，學到很多東西完成很好的項目。</p>
+<p>後來覺得模式有問題。尤其是組長推翻方案一後，突然開始心虛，覺得自己對於整個團隊沒有什麼貢獻。具體兩個問題見下。</p>
+<h3 id="分工問題">分工問題</h3>
+<p>不夠明確。除了方案一組長分配了三大模塊，大致上還算合理。進行方案二時沒有很明確的分工，而是組長一人獨擔，最後草草趕出一份代碼。</p>
+<p>雖然我們最後確定的項目是提高並發。在具體實現過程中逐漸體會到老師所說“實現一個完整的產品”並不是故意增加任務，而是幫助大家在整個項目中都能盡一份心力。因此，單純地將提高性能為第一次迭代並不是一個好的方案，當初組員們應該在實現功能部分投入主要精力才是。</p>
+<h3 id="學習問題">學習問題</h3>
+<p>在進度上花了很多時間學習，尤其是換了題目，雖然popush項目沒有明顯進展，但中途易幟相當於我們學習的過程是其他組的兩倍。因此學習技術上存在的問題對我們至關重要。主要分析原因如下：</p>
+<ul>
+<li>一、本人<strong>自學能力</strong>太渣導致經常卡坑中</li>
+<li>二、組員都是自學缺乏<strong>共同交流</strong>的機會</li>
+<li>三、項目<strong>開工較晚</strong>缺乏循序漸進的熟悉</li>
+</ul>
+<h1 id="規劃">規劃</h1>
+<p>在發現團隊問題後，助教大帝提出小組可以劃分出三個方向：則明繼續提升併發性能，佳瑜利用nginx用於集成各組程序，璐瑤跟泓鈞開腦洞實現異於搶票的新微信應用。</p>
+<p>如此一來，分工明確，雖然兩條大腿都飛奔了，反而鬆了一口氣，心裡的一塊大石頭總算落地。由於迭代一有點耽擱，迭代二需要花費更多的時間精力。</p>
+<h1 id="致謝">致謝</h1>
+<ul>
+<li>感謝隊友的同甘共苦</li>
+<li>感謝老師的熱心指導</li>
+<li>感謝助教的寶貴建議</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[大三狗與大作業的酸甜苦辣]]>
+    
+    </summary>
+    
+      <category term="軟件工程" scheme="http://qiuhongjun.com/tags/%E8%BB%9F%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    
+      <category term="wechat" scheme="http://qiuhongjun.com/tags/wechat/"/>
+    
+      <category term="進修學習" scheme="http://qiuhongjun.com/categories/%E9%80%B2%E4%BF%AE%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[haskell猜數字遊戲的實現]]></title>
+    <link href="http://qiuhongjun.com/2014/11/26/20141126/"/>
+    <id>http://qiuhongjun.com/2014/11/26/20141126/</id>
+    <published>2014-11-25T16:50:06.000Z</published>
+    <updated>2014-11-28T11:07:56.000Z</updated>
+    <content type="html"><![CDATA[<p>軟件理論基礎課主要講的是函數式語言haskell，與傳統主流的命令式語言C語言等相比，<a href="http://baike.baidu.com/view/765704.htm" title="haskell baidubaike" target="_blank" rel="external">haskell</a>就是一朵大奇葩。</p>
+<p>這次的作業其實不難，要求實現<a href="http://baike.baidu.com/subview/358630/11117097.htm" title="猜數字" target="_blank" rel="external">猜數字</a>的遊戲。</p>
+<blockquote>
+<p>甲方先想好一个1000~9999内不重复4位数。乙方先猜一个4位数Y（不一定需要每位数字不同，即0000是可以的）,甲方回答(A, B)，其中A是Y的4个数字中出现在X中的个数，B是Y的4个数字中出现在X中且位置正确的个数。<strong>與傳統規則略有差異</strong>。</p>
+<p>请使用 Haskell 编程实现乙方在游戏交互过程中对四个数字进行猜测的逻辑，甲方对猜测结果进行判断的逻辑由评测平台提供。</p>
+<p>评分标准：按测试全部数据后同学（-Error，Pass，Time）的排名给分，其中Pass为八次以内猜出数字的个数，Time为所有测试用例的用时总耗。</p>
+</blockquote>
+<h2 id="簡單算法">簡單算法</h2>
+<h3 id="算法構思">算法構思</h3>
+<p>按照老師的標準，網上搜的大部分研究算法并不適用。大部分論文所追求的都是最小步數，而追求最小步數則需要根據最優信息量去縮減狀態集，需要付出較大的時間代價。</p>
+<p>按照評分標準，我們應該追求一個只要<strong>保證ALL PASS</strong>卻<strong>耗時最少</strong>的算法。</p>
+<p>參閱了網上資料後得知，通過C語言實現簡單算法跑完10<em> 9</em> 8* 7個數據只需要不到10s，而考慮壓縮步數的算法則需要100s甚至1000+s。唯簡單算法會有5個數字需要9步才能猜出。[<a href="http://www.cppblog.com/lemene/archive/2007/11/26/37273.aspx" title="參考資料" target="_blank" rel="external">參考資料</a>]</p>
+<p>顯然，如果能夠處理掉那幾個特殊的數字，實現此簡單算法不但簡單而且更為“划算”。</p>
+<h3 id="算法思路">算法思路</h3>
+<ul>
+<li>Step1：從最小的數字1023開始猜（因為助教設定範圍是1000-9999），記錄返回結果xAyB。</li>
+<li>Step2：從後一位開始判斷，若本身重複則重複此步驟直至四位均不重複。</li>
+<li>Step3: 假設該數字為真，若該數字與遍歷歷史記錄結果均不衝突，則猜此數字。</li>
+<li>Step4：若數字正確遊戲結束，否則<strong>重複</strong>Step2和Step3。</li>
+</ul>
+<h4 id="正確率改進">正確率改進</h4>
+<p>以上算法會有四個數字不通過（5931,9052,9351,9432），而這些不通過的數據通過一些奇♂怪的改造有一定幾率可以避免。</p>
+<ul>
+<li>變更起始數據：原先從1023開始猜，可以改成從2223等開始猜。</li>
+<li>變更猜測步長：原本從後一位開始猜，可改成從第x個數字開始猜。（x與10000最大公約數為1）</li>
+<li>插入猜測數據：在第一步1023前一律先猜測某個數字，提升信息量。</li>
+</ul>
+<p>第三種方法是幫室友瘦子以幫忙debug作為籌碼得到的提示，因為比前兩種更為簡單因此採用此方案。按順序測試了幾個數字，測了1個多小時前9個都不成功，總算在最後連續三個都過了……淚奔ing</p>
+<pre><code><span class="number">5931</span><span class="subst">-&gt;</span><span class="number">8152</span>；<span class="number">5932</span><span class="subst">-&gt;</span><span class="number">8215</span>, <span class="number">8521</span>；
+<span class="number">9153</span><span class="subst">-&gt;</span><span class="number">5382</span>,<span class="number">8231</span>,<span class="number">8310</span>,<span class="number">8532</span>
+<span class="number">9876</span><span class="subst">-&gt;</span><span class="number">5608</span>,<span class="number">5609</span>
+<span class="number">3159</span><span class="subst">-&gt;</span><span class="number">4813</span>,<span class="number">4819</span>,<span class="number">8103</span>,<span class="number">8419</span>,<span class="number">8512</span>,<span class="number">8532</span>
+<span class="number">9531</span><span class="subst">-&gt;</span><span class="number">8152</span>
+<span class="number">8931</span><span class="subst">-&gt;</span><span class="number">7182</span>
+<span class="number">8391</span><span class="subst">-&gt;</span><span class="number">7812</span>
+<span class="number">9813</span><span class="subst">-&gt;</span><span class="number">7132</span>,<span class="number">7301</span>,<span class="number">7382</span>
+<span class="number">8921</span><span class="subst">-&gt;</span><span class="literal">ALL</span> PASS<span class="subst">!</span> 
+<span class="number">8912</span><span class="subst">-&gt;</span><span class="literal">ALL</span> PASS<span class="subst">!</span>
+<span class="number">5879</span><span class="subst">-&gt;</span><span class="literal">All</span> PASS！
+</code></pre><h4 id="效率改進">效率改進</h4>
+<p>由於haskell沒有循環語句，需調用大量遞歸，效率較慢，因此提升上花了好多功夫還是需要400+s。當然也有可能是我的代碼渣。</p>
+<p>這裡提供一個小的<strong>改進</strong>：</p>
+<p>每次不需要從頭1023開始循環判斷，而是可以讀取最新的歷史記錄。</p>
+<p>在讀取新記錄的時候不止可以從後一位開始判斷，而是當返回結果A&lt;=3時，可以從第10^(3-A)開始判斷。</p>
+<p>舉個栗子，最新的歷史記錄為（1023，1AnB）。那麼我們便能得知，正確數字與該數字只有1個相符。若千位數為正確數字，則後三位均錯誤可從百位起跳；若千位數字不為正確數字，則可從千位起跳。</p>
+<p>因為懶得處理B的情況，所以統一保守處理起跳較小的百位，從1023-1123之間必然不存在正確數字。</p>
+<p>當A=3時，退化到新歷史記錄加一的方法。</p>
+<h3 id="算法實現">算法實現</h3>
+<p>類型定義</p>
+<pre><code><span class="keyword">type</span> <span class="type">Step</span> = ([<span class="type">Int</span>], <span class="type">Int</span>, <span class="type">Int</span>)   -- (guess, <span class="literal">result</span>)
+<span class="keyword">type</span> <span class="type">History</span> = [<span class="type">Step</span>]
+</code></pre><p>接口函數</p>
+<pre><code>guessMove :: History -&gt; StdGen -&gt; ([Int], StdGen)
+guessMove history stdgen 
+    <span class="comment">-- 为限制步数在八步之内，无历史先测试特定数字以求最大信息量</span>
+    | <span class="built_in">length</span>(history) == <span class="number">0</span> = ([<span class="number">8</span>,<span class="number">9</span>,<span class="number">1</span>,<span class="number">2</span>],stdgen)
+    | <span class="built_in">length</span>(history) == <span class="number">1</span> = (guessNum history [<span class="number">1</span>,<span class="number">0</span>,<span class="number">2</span>,<span class="number">3</span>], stdgen)
+    | otherwise = (guessNum history (getStartNum(<span class="keyword">last</span>(history))), stdgen)
+</code></pre><p>獲取下一個數字</p>
+<pre><code><span class="label">getStartNum ::</span> Step -&gt; [Int]
+getStartNum ([<span class="literal">a</span>,b,c,d], resA, resB) = [    nextNum<span class="escape">`m</span>od<span class="escape">`1</span>0000<span class="escape">`d</span>iv<span class="escape">`1</span>000,
+                                        nextNum<span class="escape">`m</span>od<span class="escape">`1</span>000<span class="escape">`d</span>iv<span class="escape">`1</span>00,
+                                        nextNum<span class="escape">`m</span>od<span class="escape">`1</span>00<span class="escape">`d</span>iv<span class="escape">`1</span>0,
+                                        nextNum<span class="escape">`m</span>od<span class="escape">`1</span>0<span class="escape">`d</span>iv<span class="escape">`1</span>]
+                                --where nextNum = <span class="literal">a</span>*<span class="number">1000</span>+b*<span class="number">100</span>+c*<span class="number">10</span>+d+<span class="number">1</span>
+                                where nextNum = <span class="keyword">if</span>(resA &lt;= <span class="number">3</span>) then <span class="literal">a</span>*<span class="number">1000</span>+b*<span class="number">100</span>+c*<span class="number">10</span>+d+<span class="number">10</span>^(<span class="number">3</span>-resA) <span class="keyword">else</span> <span class="literal">a</span>*<span class="number">1000</span>+b*<span class="number">100</span>+c*<span class="number">10</span>+d+<span class="number">1</span>
+</code></pre><p>猜測數字</p>
+<pre><code><span class="label">guessNum ::</span> History -&gt; [Int] -&gt; [Int]
+guessNum history [<span class="literal">a</span>,b,c,d] 
+    -- 数字重复
+    |    ((<span class="literal">a</span>==b) || (<span class="literal">a</span>==c) || (<span class="literal">a</span>==d) || (b==c) || (b==d) || (c==d)) = guessNum history [newA, newB, newC, newD]
+    -- 与第历史冲突
+    |    okByHistory [<span class="literal">a</span>,b,c,d] history == <span class="literal">False</span> = guessNum history [newA, newB, newC, newD]
+    -- 与历史不冲突，递归（重复判断数字重复部分）
+    |    otherwise = [<span class="literal">a</span>,b,c,d]
+    where     
+        newA = (<span class="literal">a</span>+(b+(c+(d+<span class="number">1</span>)<span class="escape">`d</span>iv<span class="escape">`1</span>0)<span class="escape">`d</span>iv<span class="escape">`1</span>0)<span class="escape">`d</span>iv<span class="escape">`1</span>0)<span class="escape">`m</span>od<span class="escape">`1</span>0
+        newB = (b+(c+(d+<span class="number">1</span>)<span class="escape">`d</span>iv<span class="escape">`1</span>0)<span class="escape">`d</span>iv<span class="escape">`1</span>0)<span class="escape">`m</span>od<span class="escape">`1</span>0
+        newC = (c+(d+<span class="number">1</span>)<span class="escape">`d</span>iv<span class="escape">`1</span>0)<span class="escape">`m</span>od<span class="escape">`1</span>0
+        newD = (d+<span class="number">1</span>)<span class="escape">`m</span>od<span class="escape">`1</span>0
+</code></pre><p>根據歷史判斷</p>
+<pre><code><span class="label">okByHistory ::</span> [Int] -&gt; History -&gt; Bool
+okByHistory num history = <span class="literal">and</span> [okByStep num step|step&lt;-history]
+
+<span class="label">okByStep ::</span> [Int] -&gt; ([Int], Int, Int) -&gt; Bool
+okByStep [<span class="literal">a</span>,b,c,d] ([a0,b0,c0,d0], resA, resB) 
+    | resB /= getBool(<span class="literal">a</span>==a0)+getBool(b==b0)+getBool(c==c0)+getBool(d==d0) = <span class="literal">False</span>
+    | resA /= getBool(<span class="literal">a</span><span class="escape">`e</span>lem<span class="escape">`[</span>a0,b0,c0,d0])+getBool(b<span class="escape">`e</span>lem<span class="escape">`[</span>a0,b0,c0,d0])+getBool(c<span class="escape">`e</span>lem<span class="escape">`[</span>a0,b0,c0,d0])+getBool(d<span class="escape">`e</span>lem<span class="escape">`[</span>a0,b0,c0,d0]) = <span class="literal">False</span>
+    | otherwise = <span class="literal">True</span>
+
+<span class="label">getBool ::</span> Bool -&gt; Int
+getBool <span class="literal">True</span> = <span class="number">1</span>
+getBool <span class="literal">False</span> = <span class="number">0</span>
+</code></pre><h2 id="超級算法">超級算法</h2>
+<h3 id="算法構思-1">算法構思</h3>
+<p>在實現了簡單算法後，聽說其他人通過前幾步猜測固定數字可以明顯提高運行時間。</p>
+<p>因此湊出合適的首猜數據後，便開始構思應該要固定猜測哪些數字。最直觀的就是先確定如何獲取所有的數字，而這點通過猜測xyyy或者xxxy等3:1的數字便能一次確認兩個數字是否存在，執行五步便能獲取所有結果。之後分析完這五次猜測會對應哪些情況時，已經半夜一點多，一個人在中廳開著小臺燈在紙上塗塗畫畫。正好隔壁室友楊老師問我怎麼實現，我先將簡單策略告訴他後，也跟他提及我現在的思路，并證明了前五步可以同時確認千位數，只需要在後三步猜出6個數字即可。楊老師也很機靈，聽完後說只要如法炮製,猜測haac，根據不同反饋分別有兩種結果，分別作為第七步第八步猜測即可。</p>
+<p>成功將複雜度降低到O(1)，將500s壓縮成1s。</p>
+<h3 id="算法思路-1">算法思路</h3>
+<p>根據不對稱性前5步猜測1000,3222,5444,7666,9888五個數字。</p>
+<p>對於每一次猜測xyyy，如果返回4A則xy均存在，返回3A則y必存在，返回1A則x必存在，返回0A則xy均不存在。五步之內就能確認猜測數字由哪四個數字構成。</p>
+<hr>
+<p>此外，在挖掘條件時意外地證明了前五步可以確認千位數。</p>
+<p>假設正確數字為abcd，則必然遇到某次xyyy中x=a或者y=a。若x=a，則返回的只能是1A1B或者4A2B，可以確認x為千位數。若y=a，則返回的只能是3A0B或者4A0B，可以確認y為千位數。</p>
+<hr>
+<p>通過前五步便能確認答案為habc，h為已確認千位數，abc則順序不確定。需要保證在剩下3步內猜出6種可能的其中一個。</p>
+<p>思路跟之前的很像，第六步先猜測aac。</p>
+<p>若返回4A1B，則後面三個位置都不正確，只有bca和cba兩種可能；</p>
+<p>若返回4A2B，則三個中有一個位置正確，只有cab和acb兩種可能；</p>
+<p>若返回4A3B，則三個中有兩個位置正確，只有abc和bac兩種可能。</p>
+<p>分別作為第七步第八步猜測即可。</p>
+<h3 id="算法實現-1">算法實現</h3>
+<p>接口函數</p>
+<pre><code>guessMove :: History -&gt; StdGen -&gt; ([Int], StdGen)
+guessMove history ranGen
+                    | <span class="built_in">len</span> == <span class="number">0</span> = ([<span class="number">1</span>,<span class="number">0</span>,<span class="number">0</span>,<span class="number">0</span>],ranGen)
+                    | <span class="built_in">len</span> == <span class="number">1</span> = ([<span class="number">3</span>,<span class="number">2</span>,<span class="number">2</span>,<span class="number">2</span>],ranGen)
+                    | <span class="built_in">len</span> == <span class="number">2</span> = ([<span class="number">5</span>,<span class="number">4</span>,<span class="number">4</span>,<span class="number">4</span>],ranGen)
+                    | <span class="built_in">len</span> == <span class="number">3</span> = ([<span class="number">7</span>,<span class="number">6</span>,<span class="number">6</span>,<span class="number">6</span>],ranGen)
+                    | <span class="built_in">len</span> == <span class="number">4</span> = ([<span class="number">9</span>,<span class="number">8</span>,<span class="number">8</span>,<span class="number">8</span>],ranGen)
+                    <span class="comment">--aac 4A-&gt;1B bca cba</span>
+                    <span class="comment">--        -&gt;2B cab acb </span>
+                    <span class="comment">--        -&gt;3B abc bac</span>
+                    | <span class="built_in">len</span> == <span class="number">5</span> = ([h,<span class="operator">a</span>,<span class="operator">a</span>,c],ranGen)
+                    | <span class="built_in">len</span> == <span class="number">6</span> = (h:(sort1 (history!!<span class="number">5</span>) <span class="operator">a</span> b c),ranGen)
+                    | <span class="built_in">len</span> == <span class="number">7</span> = (h:(sort2 (history!!<span class="number">5</span>) <span class="operator">a</span> b c),ranGen)
+                    | otherwise = error (<span class="string">"[not error so no error]"</span>++(show history))
+                    where 
+                        <span class="built_in">len</span> = <span class="built_in">length</span>(history)
+                        <span class="comment">-- 存在的四位数，其中h为已确认千位数</span>
+                        [<span class="operator">a</span>,b,c,h] = getExistNum <span class="number">0</span> history []
+</code></pre><p>第六步</p>
+<pre><code><span class="pp">-- 根据前5轮历史记录获取存在数字,同时确认该数字千位数
+getExistNum :: Int -&gt; History -&gt; [Int] -&gt; [Int]
+getExistNum index [] existNum = existNum
+getExistNum 5 history existNum = existNum
+getExistNum index <span class="params">(head<span class="variable">His</span>@(guess,res<span class="variable">A</span>,res<span class="variable">B</span>)</span>:tailHis) existNum
+                    -- 【0A0B】xyyy abcd  x=head<span class="params">(guess)</span> y=guess!!1
+                    | resA==0 = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis existNum
+                    -- 【1A0B】xyyy abxc 确认x存在
+                    | resA==1 &amp;&amp; resB==0 = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis <span class="params">((head guess)</span>:existNum)
+                    -- 【1A1B】xyyy xabc 确认x为千位数，通过++存入末尾（因为++较慢所以只有千位数使用++）
+                    | resA==1 = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis existNum++<span class="params">(head guess:[])</span>
+                    -- 【3A0B】xyyy yabc 确认y为千位数
+                    | resA==3 &amp;&amp; resB==0 = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis existNum++<span class="params">((guess!!<span class="number">1</span>)</span>:[])
+                    -- 【3A1B】xyyy abyc 确认y存在
+                    | resA==3 = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis <span class="params">((guess!!<span class="number">1</span>)</span>:existNum)
+                    -- 【4A0B】xyyy yxxx 确认xy存在，y为千位数
+                    | resB==0 = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis <span class="params">((head guess)</span>:existNum)++<span class="params">((guess!!<span class="number">1</span>)</span>:[])
+                    -- 【4A1B】xyyy axyb 确认xy存在，无千位数
+                    | resB==1 = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis <span class="params">((head guess)</span>:<span class="params">(guess!!<span class="number">1</span>)</span>:existNum)
+                    -- 【4A2B】xyyy xayb 确认xy存在，x为千位数
+                    | otherwise = getExistNum <span class="params">(index+<span class="number">1</span>)</span> tailHis <span class="params">(((guess!!<span class="number">1</span>)</span>:existNum)++<span class="params">(head guess:[])</span>)</span>
+</code></pre><p>第七步</p>
+<pre><code>sort1 :: Step -&gt; <span class="keyword">Int</span>  -&gt; <span class="keyword">Int</span> -&gt; <span class="keyword">Int</span> -&gt; [<span class="keyword">Int</span>]
+sort1 (guess,resA,<span class="pseudo">resB</span>) a b c
+    | <span class="pseudo">resB</span> == <span class="number">1</span> = [b,c,a]
+    | <span class="pseudo">resB</span> == <span class="number">2</span> = [c,a,b]
+    | <span class="pseudo">resB</span> == <span class="number">3</span> = [a,b,c]
+</code></pre><p>第八步</p>
+<pre><code>sort2 :: Step -&gt; <span class="keyword">Int</span>  -&gt; <span class="keyword">Int</span> -&gt; <span class="keyword">Int</span> -&gt; [<span class="keyword">Int</span>]
+sort2 (guess,resA,<span class="pseudo">resB</span>) a b c
+    | <span class="pseudo">resB</span> == <span class="number">1</span> = [c,b,a]
+    | <span class="pseudo">resB</span> == <span class="number">2</span> = [a,c,b]
+    | <span class="pseudo">resB</span> == <span class="number">3</span> = [b,a,c]
+</code></pre>]]></content>
+    <summary type="html">
+    <![CDATA[《軟件理論基礎(2)》不大的大作業]]>
+    
+    </summary>
+    
+      <category term="haskell" scheme="http://qiuhongjun.com/tags/haskell/"/>
+    
+      <category term="猜數字" scheme="http://qiuhongjun.com/tags/%E7%8C%9C%E6%95%B8%E5%AD%97/"/>
+    
+      <category term="進修學習" scheme="http://qiuhongjun.com/categories/%E9%80%B2%E4%BF%AE%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[為什麼買域名寫部落格]]></title>
+    <link href="http://qiuhongjun.com/2014/11/19/20141119/"/>
+    <id>http://qiuhongjun.com/2014/11/19/20141119/</id>
+    <published>2014-11-18T16:02:23.000Z</published>
+    <updated>2014-11-25T17:55:12.000Z</updated>
+    <content type="html"><![CDATA[<p>有錢，任性。</p>
+<p>比逼格更逼格。</p>
+<a id="more"></a>
+
+<p>遠離互聯網喧囂。</p>
+<p>打造個人線上名片。</p>
+<p>訓練長篇文章的能力。</p>
+<p>記錄生活每一刻的精彩。</p>
+<p>反正沒人看想寫啥就寫啥。</p>
+<p>鍛煉表達思想的分析邏輯力。</p>
+<p>重新認識自我對話自我的機會。</p>
+<hr>
+<p><a href="http://zhuanlan.zhihu.com/cnfeat/19743861" target="_blank" rel="external">參考資料</a></p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p>有錢，任性。</p>
+<p>比逼格更逼格。</p>
+]]>
+    
+    </summary>
+    
+      <category term="blog" scheme="http://qiuhongjun.com/tags/blog/"/>
+    
+      <category term="心得分享" scheme="http://qiuhongjun.com/categories/%E5%BF%83%E5%BE%97%E5%88%86%E4%BA%AB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Fuck you, world!]]></title>
+    <link href="http://qiuhongjun.com/2014/11/18/20141117/"/>
+    <id>http://qiuhongjun.com/2014/11/18/20141117/</id>
+    <published>2014-11-17T16:00:00.000Z</published>
+    <updated>2014-11-26T06:23:30.000Z</updated>
+    <content type="html"><![CDATA[<a id="more"></a>
+
+<p>前天刷人人看到這麼一個狀態</p>
+<blockquote>
+<p>據說學一種新語言一定要先學會罵人，於是我打開電腦，敲下了 System.out.println(‘Fuck you!’);</p>
+</blockquote>
+<p>本來這就是一個好笑的梗了，正待轉發，看見下面一條神評論    </p>
+<blockquote>
+<p>到底是誰罵誰啊……</p>
+</blockquote>
+<p>戳中笑點，作者看著屏幕輸出的Fuck you不知作何感想</p>
+<blockquote>
+<p>乾脆, 改成 Fuck you, world 好了</p>
+</blockquote>
+<p>以上就是我第一篇blog名稱的緣由，不求清新但求脫俗</p>
+<hr>
+<h1 id="緣起">緣起</h1>
+<p>很早<a href="http://www.yanglei.me" target="_blank" rel="external">萌萌磊</a>就跟我推薦過個人域名，但<a href="https://www.godaddy.com/" title="godaddy" target="_blank" rel="external">godaddy</a>要十二刀還是狠不下心來就耽擱了。</p>
+<p>後來看到<a href="http://www.net.cn" target="_blank" rel="external">萬網</a>第一年特價29軟妹幣，目前續費也比狗爹便宜，約55RMB vs 120RMB。考慮萬網是阿里旗下，內地銀行、電商、社交等大網站也通過阿里註冊域名，因此安心地入坑了。</p>
+<p>域名優先還是考慮國際域名.com，便宜、穩定也不需像國內域名蛋疼地提交資料給國家審核。</p>
+<p>猶豫要qiuhongjun.com還是children19930928.com，最終選擇了比較短方便記憶的前者。</p>
+<p>當然個人主頁常用的.me也是很好的選擇。</p>
+<h1 id="入世">入世</h1>
+<h2 id="通過hexo在github部署主頁">通過hexo在github部署主頁</h2>
+<p>相比github默認的jekyll，hexo更易上手且生成更快，因此選擇hexo，順便支持一下台灣。</p>
+<p>斷斷續續看了一些hexo教程，按照步驟成功將hexo成功部署到github上。</p>
+<ul>
+<li><a href="http://zipperary.com/categories/hexo/" title="hexo系列教程" target="_blank" rel="external">教程一</a> </li>
+<li><a href="http://www.tuicool.com/articles/AfQnQjy" title="教程二" target="_blank" rel="external">教程二</a></li>
+</ul>
+<p>如果遇到hexo s後頁面打開錯誤的問題，是因為新版hexo把render從核心剝離，需要單獨安裝：</p>
+<pre><code>npm <span class="operator"><span class="keyword">install</span> hexo-renderer-ejs <span class="comment">--save</span>
+npm <span class="keyword">install</span> hexo-renderer-stylus <span class="comment">--save</span>
+npm <span class="keyword">install</span> hexo-renderer-marked <span class="comment">--save</span></span>
+</code></pre><h2 id="解析域名指向github主頁">解析域名指向github主頁</h2>
+<p>在godaddy上推薦DNSPOD解析。萬網因為沒有偉大的GFW問題，可以直接進入個人中心解析域名。</p>
+<p>記錄類型主要可用的是兩種，一開始萌萌磊推薦CNAME類型，記錄值為要指向的網址，但主機記錄無法填寫表示空的@，就只添加了www。後來才知道CNAME不能支援空主機記錄，否則可能會嚴重影響DNS解析。</p>
+<p>後來又添加了A類型，在cmd輸入：</p>
+<pre><code>ping username.github.<span class="built_in">io</span>
+</code></pre><p>即可獲得對應網站的IP位址，並填入記錄值。過十分鐘左右解析成功就可以登入啦~</p>
+<h2 id="外部代碼擴充">外部代碼擴充</h2>
+<h3 id="disqus評論">disqus評論</h3>
+<p>hexo默認disqus，之前提及的haxo教程都推薦使用國內的“多說”，原因主要是GFW……</p>
+<p>多說默認可登陸賬號是微博、QQ、人人、豆瓣，擴展還有開心，網易，搜狐，百度，谷歌。</p>
+<p>Disqus則是facebook，twitter，google，disqus。前2.5個要翻墻。</p>
+<p>覺得多說的賬號支持太雜了（欲加之罪何患無詞），還是選擇了相對高大上的disqus。</p>
+<h3 id="百度統計">百度統計</h3>
+<p>相比google analysis，百度統計的功能實現的並沒有遜色多少。進入<a href="http://tongji.baidu.com/" title="百度統計" target="_blank" rel="external">百度統計</a>，綁定域名并將其提供的代碼複製到自己的網站中，便能在百度統計中統計到一些有趣的信息，如來訪人數，來源網站等，如果訪客正好登入百度賬號，那麼還可以統計到男女比例，年齡分層等信息。</p>
+<p>此外，插入百度統計代碼后在個人博客下會有很蛋疼的百度圖標。進入百度統計網站中心，在系統管理設置-統計圖標設置下去掉顯示圖標勾選即可。</p>
+<h3 id="404頁面">404頁面</h3>
+<p>第一次看到別人用404頁面做公益項目時，感到正能量滿滿。雖然對於此種方式是否有效感到質疑，但聊勝於無。</p>
+<p>複製代碼，存為404.html放在source文件夾中，hexo便能自動生成對應文件。</p>
+<p>具體參考公益代碼來源如下，可以任選一個，或者像我把兩份代碼拷入同一份html一起顯示。</p>
+<ul>
+<li><a href="http://404page.missingkids.org.tw/" title="協尋兒少專案" target="_blank" rel="external">協尋兒少專案</a></li>
+<li><a href="http://www.qq.com/404/" title="騰訊公益404" target="_blank" rel="external">騰訊公益404</a></li>
+</ul>
+<p>此外，將網頁的標題改為404A，是入學時的宿舍號。</p>
+<h1 id="感恩">感恩</h1>
+<p>必須特別列出一欄，感謝<a href="http://yanglei.me" target="_blank" rel="external">楊磊童鞋</a>的熱心協助。</p>
+<p>雖然帶我入了個人博客的坑，卻在主頁部署上幫助我少走了很多彎路。</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[初次見面，請多指教。]]>
+    
+    </summary>
+    
+      <category term="hexo" scheme="http://qiuhongjun.com/tags/hexo/"/>
+    
+      <category term="github" scheme="http://qiuhongjun.com/tags/github/"/>
+    
+      <category term="blog" scheme="http://qiuhongjun.com/tags/blog/"/>
+    
+      <category term="進修學習" scheme="http://qiuhongjun.com/categories/%E9%80%B2%E4%BF%AE%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
+  
+</feed>
