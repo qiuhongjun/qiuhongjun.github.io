@@ -4,7 +4,7 @@
   <subtitle><![CDATA[強迫症與拖延症決鬥下的犧牲者]]></subtitle>
   <link href="/atom.xml" rel="self"/>
   <link href="http://qiuhongjun.com/"/>
-  <updated>2014-12-25T06:59:36.877Z</updated>
+  <updated>2014-12-31T11:51:36.022Z</updated>
   <id>http://qiuhongjun.com/</id>
   
   <author>
@@ -13,6 +13,66 @@
   </author>
   
   <generator uri="http://zespia.tw/hexo/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[軟件工程叁迭代贰總結]]></title>
+    <link href="http://qiuhongjun.com/2014/12/25/20141225/"/>
+    <id>http://qiuhongjun.com/2014/12/25/20141225/</id>
+    <published>2014-12-25T07:02:16.000Z</published>
+    <updated>2014-12-31T11:51:03.000Z</updated>
+    <content type="html"><![CDATA[<h1 id="分工">分工</h1>
+<p>團隊成員詳見<a href="http://www.qiuhongjun.com/2014/11/28/20141128/" title="軟件工程叁迭代壹總結" target="_blank" rel="external">軟件工程叁迭代壹總結</a>。</p>
+<p>相比迭代一，迭代二的分工明確的多。</p>
+<ul>
+<li>則明大神：提高並發</li>
+<li>佳瑜極客：優化分發</li>
+<li>璐瑤泓鈞：微信開發</li>
+</ul>
+<blockquote>
+<p>三連發哈哈哈</p>
+</blockquote>
+<h1 id="學習">學習</h1>
+<ul>
+<li>Wechat development</li>
+<li>Python &amp; Django</li>
+<li>MySQL</li>
+<li>SAE &amp; BAE</li>
+</ul>
+<h1 id="項目介紹">項目介紹</h1>
+<blockquote>
+<p>本次大作业唯一具有可玩性的微信号【学习vs弃疗】上线了！！</p>
+<p>期末考试到了，您是否还因尚未复习而担忧？通过本测试号，您可以在线练习我们精心挑选的考题。</p>
+<p>如果您想弃疗，可以进入“开脑洞”“猜数字”“猜歌曲”“点歌台”愉快地弃疗^^</p>
+</blockquote>
+<p><img src="/img/20141225/weixin.jpg" alt="測試號"><br>上限一百人故意沒那麼容易達到吧哈哈~~</p>
+<p>本次主要和璐瑤開發了【學霸vs棄療】的微信應用。</p>
+<p>【學霸vs棄療】主要分為“我要學習”和“我要棄療”兩個模塊。</p>
+<p>前者主要包含“軟基、操統、軟工、計網”四個答題模塊，主要由璐瑤負責。</p>
+<p>後者主要包含“開腦洞、猜歌名、點歌台、猜數字”四個趣味模塊，前兩項可以基本調用答題模塊，后兩項則是完全獨立的模塊，主要由本人負責。</p>
+<p>而能夠充分調動玩家答題的排行榜模塊，則是由佳瑜友情贊助實現。</p>
+<h1 id="心得總結">心得總結</h1>
+<p>對於此次能夠完成此項目還是很自豪的。雖然技術沒有則明和佳瑜那麼厲害，但完成了一個完善的產品。</p>
+<p>本以為展示完就不會再這個項目上花費太多時間。可是後來發現項目有bug，還是堅持花了快2個小時調試完；文檔和小蟲一人各寫一半再互相修改，結果自己這部分不知不覺就寫了2500字。</p>
+<h1 id="課程建議">課程建議</h1>
+<h1 id="感恩致謝">感恩致謝</h1>
+<ul>
+<li>感謝隊友的同甘共苦</li>
+<li>感謝老師的熱心指導</li>
+<li>感謝助教的寶貴建議</li>
+</ul>
+]]></content>
+    <summary type="html">
+    <![CDATA[大三狗與大作業的酸甜苦辣]]>
+    
+    </summary>
+    
+      <category term="軟件工程" scheme="http://qiuhongjun.com/tags/%E8%BB%9F%E4%BB%B6%E5%B7%A5%E7%A8%8B/"/>
+    
+      <category term="wechat" scheme="http://qiuhongjun.com/tags/wechat/"/>
+    
+      <category term="進修學習" scheme="http://qiuhongjun.com/categories/%E9%80%B2%E4%BF%AE%E5%AD%B8%E7%BF%92/"/>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[北醫三院]]></title>
